@@ -1,1 +1,1 @@
-web: gunicorn main:app -b 0.0.0.0:9009 -w 4
+web: gunicorn wsgi:app -b 0.0.0.0:9009 -w 4
